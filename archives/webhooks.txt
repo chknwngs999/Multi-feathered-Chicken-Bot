@@ -1,0 +1,60 @@
+webhook/embed stuff
+https://discord.com/developers/docs/resources/webhook
+https://hackaday.com/2018/02/15/creating-a-discord-webhook-in-python/
+https://discordpy.readthedocs.io/en/latest/api.html#webhook-supporthttps://discord.com/developers/docs/resources/webhook#modify-webhook-with-token
+https://discordpy.readthedocs.io/en/latest/api.html?highlight=avatar#webhook-support
+sending webhook w/ postman - https://www.youtube.com/watch?v=3NO-uCQcpA4
+
+embed visualizer - https://leovoel.github.io/embed-visualizer/
+
+rich embeds
+https://support.discord.com/hc/en-us/community/posts/360050837714-rauf-wtf-Rich-Embeds-Is-this-self-bot-
+google it
+https://pypi.org/project/discord-webhook/ webhook?
+-linkers
+
+
+test webhook - side bar wrong color, changing size? (changing parameters, custom parameters (plz megu?)), 
+limited to channel - create new webhook?https://discordapp.com/api/webhooks/774519149031587861/nnKtLPKXpVWCBznbahR47VGwyHGFCaaoP1VzZlmhYzRcKVbDz7hXY1n6tR3h13Wldkxq
+
+parameters
+{
+  "username": "Multi-Feathered Chicken",
+  "embeds": [
+    {
+      "author": {
+        "name": "chknwngs999's bot!", 
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "icon_url": "https://cdn.discordapp.com/avatars/274036740149215232/ab773e6f8426d1feec26d31bd9f84b55.webp?size=1024"
+      },
+      "color": "16777215",
+      "fields": [
+        {
+          "name": "Welcome to the [Chicken Bucket](https://discord.gg/e2xZZq5)!",
+          "value": "If you're reading this, you're cool 😎.\nLike, ***real*** __cool__.",
+          "inline": false
+        },
+        {
+          "name": "",
+          "value": "",
+          "inline": false
+        },
+        {
+          "name": "",
+          "value" : "",
+         "inline": false
+        }
+      ],
+      "thumbnail": {
+        "url": "https://cdn.discordapp.com/avatars/274036740149215232/ab773e6f8426d1feec26d31bd9f84b55.webp?size=1024"
+      },
+      "image": {
+        "url": "https://cdn.discordapp.com/avatars/274036740149215232/ab773e6f8426d1feec26d31bd9f84b55.webp?size=1024"
+      },
+      "footer": {
+        "text": "Have fun here!",
+        "icon_url": "https://cdn.discordapp.com/avatars/483818735849963530/8a0911e8b5b700b3c65bd3a9fdb09d8c.webp?size=1024"
+      }
+    }
+  ]
+}

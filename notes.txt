@@ -1,0 +1,166 @@
+minesweeper
+countdown (bday)/ send message at certain times
+settz (set timezone) 
+
+rpg game/summon simulator gacha thing
+
+different settings/commands by guild (certain commands only in chicken bucket, set admin roles to check for in admin commands)
+different error handlers by command - https://discordpy.readthedocs.io/en/latest/ext/commands/commands.html#error-handling
+
+
+change -help into embed (check perms)
+
+
+making on event?(k!reminders, padorucountdown) for scheduled messages?
+unique error handles for different commands(num of coins, etc)
+multiple arguments (mudae multitrade)
+
+onevent reaction (check message of reaction id, check reaction, role assign)
+  https://discordpy.readthedocs.io/en/latest/api.html#discord.on_reaction_add
+
+iterate thru random state scrambles to find regripless?
+regriples scrambles (assign value for fingers/wrist)
+regrip counter for algs (inputting algs with regrips lr/rr? for left/right regrip)
+
+what are *args for (the * part)
+
+gacha/dueling game(mudae waifubattle)(pokemon but better)
+args over multiple messages and/or people (tea)
+
+read the docs
+organize links, code, client v bot https://www.youtube.com/results?search_query=discord+py+client+vs+bot
+faqs https://discordpy.readthedocs.io/en/latest/faq.html
+
+organize stuff
+stop doing this and do chinese instead
+
+Starting Tutorials
+  https://realpython.com/how-to-make-a-discord-bot-python/#responding-to-events
+  https://repl.it/talk/learn/Hosting-discordpy-bots-with-replit/11008
+  https://www.codementor.io/@garethdwyer/building-a-discord-bot-with-python-and-repl-it-miblcwejz
+  https://discordpy.readthedocs.io/en/latest/quickstart.html
+  https://discordpy.readthedocs.io/en/latest/ext/commands/commands.html
+
+References? 
+  bot hosting https://www.writebots.com/discord-bot-hosting/#:~:text=Let%27s%20do%20it!-,The%20Best%20Discord%20Bot%20Hosting%20Method,from%20your%20chosen%20location%20worldwide.
+  discord.py documentation https://discordpy.readthedocs.io/en/latest/api.html#
+  chatbot thing https://www.tidio.com/blog/how-to-create-a-chatbot-for-a-website/
+  https://stackoverflow.com/questions/58568247/how-to-make-a-discord-js-bot-repeat-a-users-message-without-including-the-prefi
+  https://www.xspdf.com/resolution/50401127.html
+  https://discordjs.guide/#before-you-begin
+  https://discord.com/developers/docs/resources/webhook discord resources
+  https://www.codegrepper.com/code-examples/python/discord.py+delete+message
+
+Events
+  https://discordpy.readthedocs.io/en/latest/api.html#discord-api-events
+Error Handling/Logging
+  https://discordpy.readthedocs.io/en/latest/ext/commands/commands.html#error-handling
+  """import logging
+  logging.basicConfig(filename='example.log', filemode="w", level=logging.DEBUG)
+  logging.debug('Logging debug?')
+  logging.info('Logging info?')
+  logging.warning('Logging warning?')
+  logging.error('Logging error?')"""
+  read more https://discordpy.readthedocs.io/en/latest/logging.html
+  https://docs.python.org/3/howto/logging.html#
+  
+
+Json stuff
+  https://www.json.org/json-en.html
+  https://birdie0.github.io/discord-webhooks-guide/json.html
+  https://learnxinyminutes.com/docs/json/
+  https://secretgeek.net/json_3mins
+
+Role check/assigning
+  https://stackoverflow.com/questions/54845875/how-do-i-check-if-a-user-has-a-specific-role-in-discord
+  https://www.reddit.com/r/Discord_Bots/comments/a
+  3en5t/how_to_check_if_the_user_has_a_certain_role_and/
+
+Perm check
+  https://www.nuomiphp.com/eplan/en/135251.html
+
+Pinging
+  https://stackoverflow.com/questions/58639644/how-to-make-discord-bot-ping-users-using-discord-py
+  https://www.reddit.com/r/discordapp/comments/8277ka/how_would_i_make_my_bot_mention_a_specific_person/
+
+Find ping
+  https://stackoverflow.com/questions/46307035/latency-command-in-discord-py
+
+.utils.get
+  https://discordpy.readthedocs.io/en/latest/api.html#discord.utils.get
+  getting channel?
+  https://stackoverflow.com/questions/51101717/how-to-set-channel-object-using-the-channel-id-in-discord-py
+
+Avatar
+  https://github.com/Rapptz/discord.py/issues/6005#issuecomment-721352299
+  https://discordpy.readthedocs.io/en/latest/api.html?highlight=avatar#message
+
+Reactions stuff
+  https://discordpy.readthedocs.io/en/latest/faq.html#how-can-i-add-a-reaction-to-a-message
+  https://anidiots.guide/understanding/roles
+  https://github.com/Rapptz/discord.py/issues/2616
+Changing bot status
+  https://medium.com/python-in-plain-english/how-to-change-discord-bot-status-with-discord-py-39219c8fceea
+
+Dm-ing
+  https://discordpy.readthedocs.io/en/latest/faq.html#how-do-i-send-a-dm
+
+Bot activity
+  https://stackoverflow.com/questions/59126137/how-to-change-discord-py-bot-activity
+
+Kwargs stuff?
+  https://www.programiz.com/python-programming/args-and-kwargs#:~:text=Things%20to%20Remember%3A,the%20list%20can%20be%20performed.&text=*args%20and%20**kwargs%20make%20the%20function%20flexible.
+
+Referencing images?
+  https://repl.it/talk/ask/how-do-you-reference-images-sounds-folders-and-other-such-files-located-in-folders-on-a-repl/25882 
+  await ctx.send(file=discord.File('images/bersercar.jpg / moonacingthonk.jpg'))
+  https://cdn.discordapp.com/attachments/742258921733095437/775061627695005736/bersercar.jpg
+
+Sleeping
+  https://stackoverflow.com/questions/52394172/how-do-i-add-a-pause-between-discord-py-messages/52394273
+
+Edit messages
+  https://stackoverflow.com/questions/55711572/how-to-edit-a-message-in-discord-py
+
+Self delete message
+  https://github.com/Rapptz/discord.py/blob/master/examples/deleted.py
+
+delete other messages
+  ctx.message.delete()
+Purging
+  https://www.youtube.com/watch?v=F6UwZLumUWA
+Checking if message has attachment(audio/video files)
+  https://stackoverflow.com/questions/48255732/is-there-a-way-to-check-if-message-content-on-discord-contains-a-file
+
+Cogs
+  https://discordpy.readthedocs.io/en/latest/ext/commands/cogs.html
+
+Embeds
+  https://test.rauf.workers.dev/
+  https://cog-creators.github.io/discord-embed-sandbox/
+  https://www.programcreek.com/python/example/107400/discord.Embed
+  https://stackoverflow.com/questions/44862112/how-can-i-send-an-embed-via-my-discord-bot-w-python
+  https://discordpy.readthedocs.io/en/latest/api.html#embed
+  https://www.reddit.com/r/redditdev/comments/ftowzp/praw_anyone_know_how_to_get_a_linkposts_thumbnail/
+  https://gist.github.com/FaztTech/e17ea3fde6988f7215301b888ccaaf5c
+
+All parameters when sending
+  await send(content=None, *, tts=False, embed=None, file=None, files=None, delete_after=None, nonce=None, allowed_mentions=None)
+
+Getting channel
+  https://stackoverflow.com/questions/52916317/get-the-name-of-a-channel-using-discord-py
+
+Tasks.loop stuff
+  https://discordpy.readthedocs.io/en/latest/ext/tasks/index.html
+  https://stackoverflow.com/questions/63081393/how-to-restart-a-loop-in-discord-py
+  https://stackoverflow.com/questions/45824314/break-loop-with-command
+  https://stackoverflow.com/questions/61920560/how-to-loop-a-task-in-discord-py
+
+Giving perms
+  await set_permissions(target, *, overwrite=see-below, reason=None, **permissions)
+
+scheduling messages?
+  https://stackoverflow.com/questions/47548081/send-scheduled-message
+  https://www.reddit.com/r/discordapp/comments/7v7ng2/i_need_a_bot_that_can_send_a_message_at_a_very/
+
+-help message

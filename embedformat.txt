@@ -1,0 +1,1 @@
+embed.set_footer(text="Regards from the bucket.", icon_url="https://cdn.discordapp.com/attachments/742258921733095437/770523030484156456/CHKN_BUCKET.png")
